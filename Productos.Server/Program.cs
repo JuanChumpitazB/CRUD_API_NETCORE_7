@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using Productos.Server.Models;
+
 namespace Productos.Server
 {
     public class Program
@@ -10,6 +13,12 @@ namespace Productos.Server
             // Add services to the container.
 
             builder.Services.AddControllers();
+
+            builder.Services.AddDbContext<ProductosContext>(o =>
+            {
+                o.UseSqlServer(builder.Configuration.GetConnectionString("cadena"));
+            });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

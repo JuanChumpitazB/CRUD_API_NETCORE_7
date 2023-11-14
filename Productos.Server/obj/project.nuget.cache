@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WVI3MmxaeWcms6OJ3wAuTu+lCnNmJSuRSnZVlksMmA5gHq2SDj+zKTCuBjZyDHz31EqfGTWWGLQoQxZ+keY/Vg==",
+  "dgSpecHash": "fdywCWEi6Z4/+3CowePVpJwIjhGOnNWXml+ea6mYSkK2slWZg1+lWHlNe1xlEWqJ/aKbmZDW6Yzht0MoLlEA+w==",
   "success": true,
   "projectFilePath": "D:\\PROGRAMACION\\CRUD_WEB_API_NETCORE\\Productos\\Productos.Server\\Productos.Server.csproj",
   "expectedPackageFiles": [
